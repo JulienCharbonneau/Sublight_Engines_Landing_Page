@@ -20,6 +20,7 @@
           <div id="logo_on_top">
             <img src="/assets/logo/logo_sublight.png" />
           </div>
+          <div id="link">
           <ul id="">
             <li>
               <a href="#"> OUR services </a>
@@ -34,14 +35,15 @@
               <a href="#"> contact us </a>
             </li>
           </ul>
+        </div>
         </nav>
       </div>
 
-      <div>
+      <div id="slogan">
         <!-- slogan mission -->
         <h3>our mission</h3>
         <h1>take you to the top</h1>
-        <div>orange button here</div>
+        <div><img src="/assets/icon/elevator_button.png" alt=""></div>
       </div>
     </section>
     <!-- MAIN CONTENT -->
@@ -49,13 +51,22 @@
       <header>
         <h3>one-stop for you elevator needs</h3>
         <h1>one step closer to success</h1>
-        <div>-----separator line -------</div>
+        <div><img src="/assets/icon/separator.png"></div>
       </header>
-      <div>
+      <div id="services">
         <!-- 3 icon tools -->
-        <div><h3>we disign</h3></div>
-        <div><h3>we built</h3></div>
-        <div><h3>we maintain</h3></div>
+        <div class="services-img">
+            <img src="/assets/icon/design.png">
+            <h3>we disign</h3>
+        </div>
+        <div class="services-img">
+            <img src="/assets/icon/build.png">
+            <h3>we built</h3>
+        </div>
+        <div class="services-img">
+            <img src="/assets/icon/maintenance.png">
+            <h3>we maintain</h3>
+        </div>
       </div>
     </section>
 
@@ -76,70 +87,71 @@
           faucibus id.
         </p>
       </article>
-      <div>image on the side</div>
+      <div id="article_img"><img src="/assets/article_side_img.png"></div>
     </section>
     <section class="products-section">
       <!-- products section -->
-      <header>
+      <header id="product_head">
         <h4>need more for your fleet of elevators</h4>
         <h1>
           all our products are made<br />
           with heart and soul
         </h1>
-        <div>----separator line --------</div>
+        <div><img src="/assets/icon/separator.png" ></div>
       </header>
-      <div>
+      <div id="img_row">
         <!-- 5 images -->
 
-        <div>
-          <img src="" alt="" />
-          <div>
+        <div class="product-img">
+          <img src="/assets/safety.png" alt="" />
+          <div class="product-description">
             <h3>safety</h3>
             <p>Lorem ipsum dolor sit amet, consectetur</p>
           </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h3>safety</h3>
+        <div class="product-img">
+          <img src="/assets/cab.png" alt="" />
+          <div class="product-description">
+            <h3>cab</h3>
             <p>Lorem ipsum dolor sit amet, consectetur</p>
           </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h3>safety</h3>
+        <div class="product-img">
+          <img src="assets/door.png" alt="" />
+          <div class="product-description">
+            <h3>door</h3>
             <p>Lorem ipsum dolor sit amet, consectetur</p>
           </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h3>safety</h3>
+        <div class="product-img">
+          <img src="assets/mechanic.png" alt="" />
+          <div class="product-description">
+            <h3>mechanics</h3>
             <p>Lorem ipsum dolor sit amet, consectetur</p>
           </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <div>
-            <h3>safety</h3>
+        <div class="product-img">
+          <img src="assets/hatch.png" alt="" />
+          <div class="product-description">
+            <h3>hoistway/hatch</h3>
             <p>Lorem ipsum dolor sit amet, consectetur</p>
           </div>
         </div>
       </div>
-      <div>
+      <div id="button">
         <button type="button">download our catalog</button>
       </div>
     </section>
 
     <section class="contact-us">
-      <header>
+      <header id="contact_head">
         <h2>stay in touch with our customer service</h2>
         <h1>
           fell free to contact us<br />
           for any questions
         </h1>
-        <div>-----separator line ---------</div>
+        <div><img src="/assets/icon/separator.png" ></div>
+      </header>
 
         <form>
           <fieldset>
@@ -158,7 +170,7 @@
               name=""
               placeholder="yourname@company.com"
             /><br />
-
+        <div>
             <label for="">phone number</label><br />
             <input
               type="tel"
@@ -166,15 +178,15 @@
               name=""
               placeholder="0 (000) 000 -0000"
             />
-
-            <label for="">preferred language</label><br>
-            <select class="" name="">
+            <div>
+            <label for="language">preferred language</label><br>
+            <select class="" name="language">
                 <option value="select">Select</option>
-
-                <input type="submit">    
+           </div>
+        </div>
+           <input type="submit">    
           </fieldset>
         </form>
-      </header>
     </section>
     <!-- FOOTER -->
     <section class="since-section"> <!-- since-section -->
