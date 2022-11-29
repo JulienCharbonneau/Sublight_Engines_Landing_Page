@@ -25,3 +25,87 @@
 /* OTHER */
 /* cursor: - - - ; */
 /* } */
+
+.top-section {
+  background-color: blue;
+}
+
+.services-section {
+  background-color: red;
+}
+
+.article-section {
+  background-color: blueviolet;
+}
+
+.products-section {
+  background-color: coral;
+}
+
+.contact-us {
+  background-color: chartreuse;
+}
+
+.since-section {
+  background-color: blueviolet;
+}
+
+.office-section {
+  background-color: aqua;
+}
+
+#us_office {
+  background-color: rgb(42, 165, 48);
+}
+
+#cad_office {
+  background-color: crimson;
+}
+
+nav {
+  background-color: yellow;
+}
+
+#logo_on_top {
+  display: flex;
+  top: -10px;
+  left: 30px;
+  height: 10px;
+  margin-left: auto;
+  background-color: black;
+}
+
+#Header #Navigation {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+  /* background-color: aqua; */
+}
+
+#Header #Navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#Header #Navigation li {
+  float: left;
+}
+
+#Header #Navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+#Header #Navigation li a:hover {
+  background-color: rgb(71, 69, 69);
+}
