@@ -203,32 +203,87 @@ nav {
 
 .article-section {
   display: flex;
-  background-color: blueviolet;
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 400px;
+}
+#article_row {
+  display: flex;
+  margin-top: 200px;
 }
 
 article {
+  max-width: 800px;
+  max-height: 1000px;
   display: flex;
-  margin: 20px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  flex-wrap: wrap;
+}
+
+article h1 {
+  font-family: "hamburg serial", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+article h3 {
+  font-family: "hamburg serial", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+article p {
+  font-family: "hamburg serial", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
 }
 
 #article_img {
-  margin: 40px;
 }
 
 /* produc  section */
 
 .products-section {
-  background-color: coral;
+  display: flex;
+  background-color: #ff7630;
+  padding-bottom: 400px;
+  flex-direction: column;
+  align-items: center;
 }
 #product_head {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+}
+
+#product_head h1 {
+  font-family: "hamburg serial", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#cut-line::before {
+  content: "\a";
+  white-space: pre;
+}
+
+#product_head h4 {
+  font-family: "hamburg serial", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 #img_row {
