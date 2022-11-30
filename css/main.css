@@ -27,37 +27,48 @@
 /* } */
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .top-section {
   display: flex;
   flex-wrap: wrap;
-  background-color: blue;
+  background-image: url(/assets/top_backgroung.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   flex-direction: column;
+  padding-bottom: 500px;
 }
 
 nav {
-  background-color: rgb(0, 255, 255);
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
 }
 
 #logo_on_top {
-  background-color: black;
+  position: absolute;
+  left: 20px;
   padding-right: 30px;
+}
+
+#logo_on_top img {
+  width: 100%;
+  height: auto;
 }
 
 #Header {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background-color: bisque;
+  justify-content: space-between;
+  background-image: url(/assets/Rectangle1.png);
+  margin-top: 40px;
+  align-items: center;
 }
 
 #link {
+  position: relative;
+  left: 525px;
+  display: flex;
   padding-left: 100px;
 }
 
@@ -91,15 +102,32 @@ nav {
   flex-direction: column;
   align-items: center;
   margin-top: 175px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 #slogan h1 {
   margin-top: 1px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  font-family: "hamburg serial", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 79px;
+  font-weight: 900;
+
+  text-transform: uppercase;
 }
 
 #slogan h3 {
   margin-bottom: 1px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 51px;
+  font-weight: 800;
+  font-family: "hamburg serial", sans-serif;
+  text-transform: uppercase;
+}
+
+#slogan img {
+  padding-top: 10px;
 }
 
 /* services section */
@@ -238,16 +266,24 @@ fieldset {
 /*office section */
 
 .office-section {
+  display: flex;
   background-color: aqua;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
+#address {
+  display: flex;
+  flex-direction: row;
+}
+
 #us_office {
+  display: flex;
   background-color: rgb(42, 165, 48);
 }
 
 #cad_office {
+  display: flex;
   background-color: crimson;
 }
