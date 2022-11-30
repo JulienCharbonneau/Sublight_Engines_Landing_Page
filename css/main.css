@@ -37,6 +37,7 @@ body {
   background-size: cover;
   flex-direction: column;
   padding-bottom: 500px;
+  max-height: max-content;
 }
 
 nav {
@@ -67,9 +68,15 @@ nav {
 
 #link {
   position: relative;
-  left: 525px;
+  left: 750px;
   display: flex;
   padding-left: 100px;
+
+  font-family: "hamburg serial", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 #Header #Navigation ul {
@@ -97,6 +104,8 @@ nav {
 }
 
 #slogan {
+  position: relative;
+  bottom: -450px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -134,15 +143,46 @@ nav {
 .services-section {
   display: flex;
   flex-wrap: wrap;
-  background-color: red;
+  background-image: url(/assets/Rectangle2.png);
   flex-direction: column;
   align-items: center;
+
+  padding-bottom: 350px;
 }
 
 #services {
+  position: relative;
+  bottom: -200px;
   display: inline-flex;
-  background-color: aqua;
   flex-wrap: wrap;
+}
+
+#services-title {
+  position: relative;
+  bottom: -100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#services-title h1 {
+  font-weight: bolder;
+  font-family: "hamburg serial", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 45px;
+  font-weight: 900;
+
+  text-transform: uppercase;
+}
+
+#services-title h3 {
+  font-weight: bolder;
+  font-family: "hamburg serial", sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-size: 25px;
+  font-weight: 700;
+
+  text-transform: uppercase;
 }
 
 .services-img {
