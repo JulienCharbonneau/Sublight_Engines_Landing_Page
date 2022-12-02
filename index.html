@@ -23,16 +23,16 @@
           <div id="link">
           <ul id="">
             <li>
-              <a href="#"> OUR services </a>
+              <a href="#services-title"> OUR services </a>
             </li>
             <li>
-              <a href="#"> OUR PROUDUCTS </a>
+              <a href="#product_head"> OUR PROUDUCTS </a>
             </li>
             <li>
-              <a href="#"> about us </a>
+              <a href="#about_us"> about us </a>
             </li>
             <li>
-              <a href="#"> contact us </a>
+              <a href="#contact_head"> contact us </a>
             </li>
           </ul>
         </div>
@@ -71,7 +71,7 @@
     </section>
 
     <!-- article section -->
-    <section class="article-section">
+    <section  id="about_us" class="article-section">
       <div id="article_row">
       <article>
         <h3>2022 secureboards series</h3>
@@ -164,77 +164,89 @@
       <header id="contact_head">
         <h2>stay in touch with our customer service</h2>
         <h1>
-          fell free to contact us<br />
-          for any questions
+          fell free to contact us</h1>
+          <h1 class="cut-line">for any questions</h1>
         </h1>
         <div><img src="/assets/icon/separator.png" ></div>
       </header>
 
-        <form>
+        <form onsubmit="alert('Your request is send.')">
           <fieldset>
-            <label for=""> name *</label><br />
+            <div id="">
+            <label for="name"> name *</label><br />
             <input
+            required
               type="text"
-              id=""
+              id="name"
               name=""
               placeholder="enter your full name"
-            /><br />
-
-            <label for=""> email address *</label><br />
+            />
+            </div>
+            <div id="">
+            <label for="email"> email address *</label><br />
             <input
+            required
               type="email"
-              id=""
+              id="email"
               name=""
               placeholder="yourname@company.com"
-            /><br />
+            />
+          </div>
         <div class="form-row">
-            <div>
-            <label for="">phone number</label><br />
+            <div id="phone_number">
+            <label for="phone">phone number</label>
             <input
+            required
               type="tel"
-              id=""
+              id="phone"
               name=""
               placeholder="0 (000) 000 -0000"
             />
         </div>
-            <div>
+            <div id="language_div">
             <label for="language">preferred language</label><br>
             <select class="" name="language">
                 <option value="select">Select</option>
+                <option value="french">French</option>
+                <option value="english">English</option>
+                <option value="spahish">Spanish</option>
+              
+            </select>
            </div>
         </div>
-        <div>
-           <input type="submit">    
-        </div>
-          </fieldset>
+      </fieldset>
+      <div id="submit">
+        <input type="image" src="/assets/icon/submit.png" name="saveForm" class="btTxt submit" id="saveForm" />    
+      </div>
         </form>
     </section>
     <!-- FOOTER -->
     <section class="since-section"> <!-- since-section -->
-        <h1>with your trust since 19943.</h1>
+        <h1>With your trust since 1943.</h1>
         <div id="group_img"> <img src="/assets/Group.png"></div>
     </section>
 
 
     <section class="office-section"> <!-- office-section -->
-      <div id="address">
+      <!-- <div id="address"> -->
         <div id="us_office">
             <h4>UNITED STATES office</h4>
-            <h3>456 harlem boulevard
-                saratoga springs, ny, usa
-                1 999 543-4567</h3>
+            <h3>456 harlem boulevard</h3>
+                <h3>saratoga springs, ny, usa</h3>
+               <h3>1 999 543-4567</h3>
         </div>
 
         <div id="cad_office">
             <h4>Canada’s office</h4>
-            <h3>23895 bradshaw boulevard
-                kingston, ont, ca
-                1 999 543-4567</h3>
+            <h3>23895 bradshaw boulevard</h3>
+             <h3>kingston, ont, ca</h3>
+                <h3>1 999 543-4567</h3>
         </div>
-      </div>
-<div><p>All rights reserved to CodeBoxx Solutions ©, 2022.</p></div>
+      <!-- </div> -->
     </section>
-
+    <section id="copyrights">
+    <div id="copyrights"><p>All rights reserved to CodeBoxx Solutions ©, 2022.</p></div>
+  </section>
     <!-- SCRIPTS -->
     <script src="" async defer></script>
   </body>

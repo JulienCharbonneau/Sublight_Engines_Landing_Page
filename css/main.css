@@ -315,34 +315,128 @@ article p {
 /*contac us */
 
 .contact-us {
-  background-color: chartreuse;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 400px;
 }
 
 #contact_head {
-  background-color: aqua;
+  position: relative;
+  bottom: -100px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+#contact_head h1 {
+  color: rgba(255, 118, 48, 1);
+  font-weight: 900;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+#contact_head h2 {
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
 form {
-  background-color: burlywood;
+  position: relative;
+  bottom: -200px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 400px;
 }
+
+form label {
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+#name {
+  width: 498px;
+  height: 52px;
+  margin-bottom: 10px;
+}
+
+#email {
+  width: 498px;
+  height: 52px;
+  margin-bottom: 10px;
+}
+
+input {
+  border-color: grey;
+}
+
+input[type="tel"] {
+  width: 250;
+  height: 52px;
+}
+
+#phone_number {
+  position: relative;
+  right: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 250;
+}
+
+#language_div {
+  width: 239px;
+  height: 52px;
+}
+
+::placeholder {
+  position: relative;
+  left: 10px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#language_div {
+  position: relative;
+  top: -4px;
+  left: 30px;
+}
+
+select {
+  width: 250px;
+  height: 52px;
+}
+
+select:focus {
+  min-width: 250px;
+  width: auto;
+}
+
 fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: none;
+  padding-bottom: 300px;
 }
 .form-row {
   display: flex;
 }
 
+#submit {
+  position: relative;
+  top: -250px;
+  display: flex;
+}
+
+#submit:hover {
+  background-color: gray;
+}
 /*since */
 
 .since-section {
@@ -350,8 +444,13 @@ fieldset {
   background-color: rgb(0, 0, 0);
   color: rgba(255, 118, 48, 1);
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+}
+
+.since-section h1 {
+  font-weight: 900;
+  font-size: 45px;
 }
 
 #group_img {
@@ -362,23 +461,49 @@ fieldset {
 
 .office-section {
   display: flex;
-  background-color: aqua;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+  padding-bottom: 100px;
 }
 
-#address {
+.office-section {
   display: flex;
   flex-direction: row;
 }
 
+.office-section h4 {
+  color: rgba(255, 118, 48, 1);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+}
+
+.office-section h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 22px;
+  margin: 0;
+}
+
 #us_office {
   display: flex;
-  background-color: rgb(42, 165, 48);
+  float: inline-start;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 200px;
 }
 
 #cad_office {
   display: flex;
-  background-color: crimson;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 200px;
+}
+
+#copyrights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
