@@ -350,7 +350,7 @@ article p {
   margin: 0px;
 }
 
-/*contac us */
+/*mobile contac us */
 
 .contact-us {
   display: flex;
@@ -476,8 +476,28 @@ fieldset {
   background-color: gray;
 }
 
-/* small tablet styles */
-@media screen and (min-width: 620px) {
+/*mobile since */
+
+.since-section {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  color: rgba(255, 118, 48, 1);
+  flex-direction: column;
+  align-items: center;
+}
+
+.since-section h1 {
+  font-weight: 900;
+  font-size: 45px;
+  text-align: center;
+}
+
+#group_img {
+  margin: 40px;
+}
+
+/* large tablet & laptop styles */
+@media screen and (min-width: 960px) {
 }
 
 /* full screen  */
