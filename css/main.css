@@ -501,8 +501,8 @@ fieldset {
 .office-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
+  padding-top: 75px;
 }
 
 .office-section h4 {
@@ -524,21 +524,32 @@ fieldset {
   display: flex;
   float: inline-start;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 100px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 40px;
 }
 
 #cad_office {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 100px;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 40px;
 }
 
 #copyrights {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* mobile copyrights section */
+
+#copyrights {
+  font-size: 10px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 75px;
 }
 
 /* large tablet & laptop styles */
