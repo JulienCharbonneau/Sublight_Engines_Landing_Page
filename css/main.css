@@ -299,12 +299,6 @@ article p {
   margin: 5px;
 }
 
-#product_separator {
-  /* position: relative;
-  bottom: -150px;
-  left: 20px; */
-}
-
 #img_row {
   /* position: relative;
   bottom: -200px;
@@ -356,7 +350,7 @@ article p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 400px;
+  padding-bottom: 250px;
 }
 
 #contact_head {
@@ -370,14 +364,14 @@ article p {
 #contact_head h1 {
   color: rgba(255, 118, 48, 1);
   font-weight: 900;
-  font-size: 45px;
+  font-size: 24px;
   text-transform: uppercase;
   margin: 5px;
 }
 
 #contact_head h2 {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 16px;
   text-transform: uppercase;
   margin: 5px;
 }
@@ -389,6 +383,7 @@ form {
   flex-direction: column;
   align-items: center;
   height: 400px;
+  padding: 40px 40px;
 }
 
 form label {
@@ -398,13 +393,13 @@ form label {
 }
 
 #name {
-  width: 498px;
+  width: 330px;
   height: 52px;
   margin-bottom: 10px;
 }
 
 #email {
-  width: 498px;
+  width: 330px;
   height: 52px;
   margin-bottom: 10px;
 }
@@ -414,22 +409,15 @@ input {
 }
 
 input[type="tel"] {
-  width: 250;
+  width: 330px;
   height: 52px;
 }
 
 #phone_number {
-  position: relative;
-  right: 45px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 175px;
-}
-
-#language_div {
-  width: 239px;
-  height: 52px;
+  width: 330px;
 }
 
 ::placeholder {
@@ -439,14 +427,8 @@ input[type="tel"] {
   font-size: 15px;
 }
 
-#language_div {
-  position: relative;
-  top: -4px;
-  left: 53px;
-}
-
 select {
-  width: 230px;
+  width: 342px;
   height: 56px;
 }
 
@@ -458,18 +440,31 @@ select:focus {
 fieldset {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   border: none;
   padding-bottom: 300px;
 }
-.form-row {
+.form-botom-element {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #submit {
-  position: relative;
-  top: -250px;
   display: flex;
+  width: 330px;
+
+  padding-top: 40px;
+}
+
+input[type="image" i] {
+  appearance: none;
+  background-color: initial;
+  cursor: pointer;
+  padding: initial;
+  border: initial;
+  width: 340px;
+  height: 50px;
 }
 
 #submit:hover {
