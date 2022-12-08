@@ -61,7 +61,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   background-image: url(/assets/Rectangle1.png);
-
+  height: 80px;
   margin-top: 0px;
   align-items: center;
 }
@@ -103,6 +103,7 @@ nav {
 
 /* # mobbile hamburger link  */
 .menu-items {
+  /* display: block; */
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -110,9 +111,9 @@ nav {
   margin-top: -6rem;
   margin-left: -1rem;
   top: 125px;
-  right: -215px;
+  right: -200px;
   list-style: none;
-  opacity: 0;
+  opacity: 1;
   font-size: 15px;
   border: 4px solid black;
   background-color: black;
@@ -149,11 +150,12 @@ nav {
 .check:hover {
   cursor: pointer;
 }
-.check:checked ~ .menu-items {
+
+/* .check:checked ~ .menu-items {
   display: block;
   transform: translateX(0%);
   opacity: 1;
-}
+} */
 
 .ham-menu {
   height: 15px;
@@ -187,7 +189,7 @@ nav {
   transform-origin: 0% 100%;
   transition: transform 100ms ease-in-out;
 }
-
+/* 
 .check:checked ~ .ham-menu .line1 {
   display: block;
   transform: rotate(45deg);
@@ -200,7 +202,7 @@ nav {
 .check:checked ~ .ham-menu .line3 {
   display: block;
   transform: rotate(-45deg);
-}
+} */
 
 /*mobile style   services section */
 
