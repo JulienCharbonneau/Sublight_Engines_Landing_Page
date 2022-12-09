@@ -11,6 +11,14 @@
 
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<!-- <script type="text/javascript">
+   (function(){
+      emailjs.init("UqxJU2Ws0Yc0AT-1U");
+   })();
+</script> -->
   </head>
   <body>
     <!-- Navigation mobile Bar -->
@@ -252,7 +260,7 @@
           </div>
         </div>
         <!-- <div class="buttonHolder"> -->
-          <input type="image" src="/assets/icon/submit.png" name="saveForm" class="btTxt submit" id="submit" />    
+          <input type="image" src="/assets/icon/submit.png" name="saveForm" class="btTxt submit" id="submit" onclick="senMail()"/>    
         <!-- </div> -->
       </fieldset>
         </form>
