@@ -566,9 +566,8 @@ fieldset {
 
 #submit {
   display: flex;
+  margin-top: 40px;
   width: 330px;
-
-  padding-top: 40px;
 }
 
 input[type="image" i] {
@@ -1030,9 +1029,11 @@ input[type="image" i] {
   }
 
   #name {
-    width: 498px;
     height: 52px;
-    margin-bottom: 10px;
+    width: 498px;
+    left: 0px;
+    top: 18px;
+    border-radius: 0px;
   }
 
   #email {
@@ -1042,12 +1043,21 @@ input[type="image" i] {
   }
 
   input {
-    border-color: grey;
+    width: 498px;
+    height: 52px;
+    margin-bottom: 10px;
+    border: 1px solid #a0a0a0;
+    color: #000000;
+    padding: 0;
   }
 
   input[type="tel"] {
     width: 250;
     height: 52px;
+  }
+  .form-botom-element {
+    display: flex;
+    flex-direction: row;
   }
 
   #phone_number {
@@ -1057,6 +1067,13 @@ input[type="image" i] {
     flex-direction: column;
     align-items: flex-start;
     width: 175px;
+  }
+  #phone {
+    height: 52px;
+    width: 236px;
+    left: 0px;
+    top: 18px;
+    border-radius: 0px;
   }
 
   #language_div {
@@ -1078,13 +1095,20 @@ input[type="image" i] {
   }
 
   select {
-    width: 230px;
-    height: 56px;
+    height: 52px;
+    width: 236px;
+    left: 0px;
+    top: 18px;
+    border-radius: 0px;
+    background: none;
   }
 
   select:focus {
-    min-width: 230px;
-    width: auto;
+    height: 52px;
+    width: 236px;
+    left: 0px;
+    top: 18px;
+    border-radius: 0px;
   }
 
   fieldset {
@@ -1097,11 +1121,29 @@ input[type="image" i] {
   .form-row {
     display: flex;
   }
-
+  .buttonHolder {
+    text-align: center;
+  }
   #submit {
     position: relative;
-    top: -250px;
-    display: flex;
+    bottom: -40px;
+    height: 50px;
+    width: 498px;
+    border-radius: 0px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 0px;
+    /* identical to box height, or 122% */
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+
+    /* Sublight Engines/Black */
+
+    color: #000000;
   }
 
   #submit:hover {
