@@ -166,12 +166,6 @@ nav {
   cursor: pointer;
 }
 
-/* .check:checked ~ .menu-items {
-  display: block;
-  transform: translateX(0%);
-  opacity: 1;
-} */
-
 .ham-menu {
   height: 15px;
   width: 15px;
@@ -525,8 +519,8 @@ select {
 }
 
 select:focus {
-  min-width: 230px;
-  width: auto;
+  width: 342px;
+  height: 56px;
 }
 
 fieldset {
